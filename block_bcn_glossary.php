@@ -57,18 +57,4 @@ class block_bcn_glossary extends block_base {
         return true;
     }
 
-    /**
-     * Defines in which pages this block can be added.
-     *
-     * @return array of the pages where the block can be added.
-     */
-    public function applicable_formats() {
-        return [
-            'admin' => false,
-            'site-index' => true,
-            'course-view' => false,
-            'mod' => false,
-            'my' => true,
-        ];
-    }
 }

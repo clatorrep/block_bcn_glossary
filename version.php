@@ -25,5 +25,5 @@
 defined('MOODLE_INTERNAL') || die();
 
 $plugin->version = 2023122010;
-$plugin->requires = 2021051718;
+$plugin->requires = 2021051100;
 $plugin->component = 'block_bcn_glossary';
