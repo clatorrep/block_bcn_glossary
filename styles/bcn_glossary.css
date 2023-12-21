@@ -1,0 +1,42 @@
+[data-region="blocks-column"] {
+    width: 100%;
+}
+
+.block_bcn_glossary.card{
+    border: none;
+}
+
+.block_bcn_glossary .rounded-right{
+    border-top-left-radius: 0 !important;
+    border-bottom-left-radius: 0 !important;
+}
+
+.block_bcn_glossary .rounded-left{
+    border-top-right-radius: 0 !important;
+    border-bottom-right-radius: 0 !important;
+}
+
+.block_bcn_glossary .btn-group button{
+    border-top-left-radius: 0 !important;
+    border-bottom-left-radius: 0 !important;
+    border-top-right-radius: 0 !important;
+    border-bottom-right-radius: 0 !important;
+}
+
+.block_bcn_glossary .btn-group button:first-child{
+    border-top-right-radius: 0 !important;
+    border-bottom-right-radius: 0 !important;
+    border-top-left-radius: 0.25rem !important;
+    border-bottom-left-radius: 0.25rem !important;
+}
+
+.block_bcn_glossary .btn-group button:last-child{
+    border-top-left-radius: 0 !important;
+    border-bottom-left-radius: 0 !important;
+    border-top-right-radius: 0.25rem !important;
+    border-bottom-right-radius: 0.25rem !important;
+}
+
+.block_bcn_glossary  .container.card-container{
+    margin: 72px auto;
+}

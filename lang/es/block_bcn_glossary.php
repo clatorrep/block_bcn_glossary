@@ -22,6 +22,9 @@
  * @license   http://www.gnu.org/copyleft/gpl.html GNU GPL v3 or later
  */
 
-$string['pluginname'] = 'Bloque BCN Glossary';
+$string['pluginname'] = 'BCN Glossary';
 $string['pluginname:addinstance'] = 'Agregar un nuevo bloque BCN Glossary';
 $string['pluginname:myaddinstance'] = 'Agregar un nuevo bloque BCN Glossary en Mi página de Moodle';
+
+$string['bcn_btt_search'] = 'Buscar';
+$string['bcn_placeholder_search'] = 'Buscar términos';

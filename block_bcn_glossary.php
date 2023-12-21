@@ -29,20 +29,28 @@ class block_bcn_glossary extends block_base {
     }
 
     public function get_content() {
-        global $OUTPUT;
+        global $OUTPUT, $PAGE;
 
         if ($this->content !== null) {
             return $this->content;
         }
 
         $this->content = new stdClass();
-        $this->content->footer = '';
 
-        $mustache_context = [
-            'pluginname' => $this->title,
+        $bcn_btt_search = get_string('bcn_btt_search', 'block_bcn_glossary');
+        $bcn_placeholder_search = get_string('bcn_placeholder_search', 'block_bcn_glossary');
+
+        $letters = ['#','A','B','C','D','E','F','G','H','I','J','K','L','M','N','Ñ','O','P','Q','R','S','T','U','V','W','X','Y','Z'];
+
+        $contextinfo = [
+            'bcn_btt_search' => $bcn_btt_search,
+            'bcn_placeholder_search' => $bcn_placeholder_search, 
+            'letters' => $letters, 
         ];
 
-        $this->content->text = $OUTPUT->render_from_template('block_bcn_glossary/main', $mustache_context);
+        $this->content->text = $OUTPUT->render_from_template('block_bcn_glossary/bcn_glossary_main', $contextinfo);
+
+        $PAGE->requires->css("/blocks/bcn_glossary/styles/bcn_glossary.css");
 
         return $this->content;
     }
