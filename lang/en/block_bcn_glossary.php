@@ -28,3 +28,4 @@ $string['pluginname:myaddinstance'] = 'Add a new BCN Glossary block to the My Mo
 
 $string['bcn_btt_search'] = 'Search';
 $string['bcn_placeholder_search'] = 'Search terms';
+$string['bcn_new_term'] = 'New term';

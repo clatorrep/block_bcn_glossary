@@ -1,46 +1,50 @@
-<div class="container">
+<div class="block_container">
+
     <div class="row">
-        <div class="col-md-12">
+        <div class="col-md-6 offset-3">
             <h2 class="mb-0 subte">
                 En esta sección podrás reforzar algunos conceptos técnicos que utilizamos como compañía de seguros.<span class="bold maincolor">Te invitamos a revisarlo.</span>
             </h2>
+
+            <a href="#" class="btn btn_banner_second mt-2 text-center">
+                <i class="fa fa-plus"></i> {{bcn_new_term}}
+            </a>
         </div>
     </div>
 
-<div class="container card-container">
-    <div class="row mb-md-6">
-        <div class="input-group mb-3 offset-3 col-md-6">
-            <input type="text" class="form-control rounded-left" placeholder="{{bcn_placeholder_search}}">
-            <div class="input-group-append">
-                <button class="btn btn-outline-secondary rounded-right" type="button">{{bcn_btt_search}}</button>
+    <div class="container card-container">
+        <div class="row mb-md-5">
+            <div class="input-group mb-3 offset-3 col-md-6">
+                <input type="text" class="form-control rounded-left" placeholder="{{bcn_placeholder_search}}">
+                <div class="input-group-append">
+                    <button class="btn btn-outline-secondary rounded-right" type="button">{{bcn_btt_search}}</button>
+                </div>
             </div>
         </div>
-    </div>
 
-    <div class="row">
-        <div class="col-md-12">
-            <div class="btn-group" role="group">
+        <div class="row">
+            <div class="col-md-12">
+                <div class="btn-group" role="group">
+                {{#letters}}
+                    <button type="button" class="btn btn-secondary">{{.}}</button>
+                {{/letters}}
+                </div>
+            </div>
+        </div>
+
+        <div class="container mt-md-6">
+            <div class="row">
             {{#letters}}
-                <button type="button" class="btn btn-secondary">{{.}}</button>
+                <div class="col-md-4 mb-md-4">
+                    <div class="card">
+                        <div class="card-body">
+                            <h5 class="card-title">Lorem Ipsum</h5>
+                            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                        </div>
+                    </div>
+                </div>
             {{/letters}}
             </div>
         </div>
     </div>
-
-    <div class="container mt-md-6">
-        <div class="row">
-        {{#letters}}
-            <div class="col-md-4 mb-md-4">
-                <div class="card">
-                    <div class="card-body">
-                        <h5 class="card-title">Lorem Ipsum</h5>
-                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                    </div>
-                </div>
-            </div>
-        {{/letters}}
-        </div>
-    </div>
-</div>
-
 </div>

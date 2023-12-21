@@ -39,12 +39,14 @@ class block_bcn_glossary extends block_base {
 
         $bcn_btt_search = get_string('bcn_btt_search', 'block_bcn_glossary');
         $bcn_placeholder_search = get_string('bcn_placeholder_search', 'block_bcn_glossary');
+        $bcn_new_term = get_string('bcn_new_term', 'block_bcn_glossary');
 
         $letters = ['#','A','B','C','D','E','F','G','H','I','J','K','L','M','N','Ñ','O','P','Q','R','S','T','U','V','W','X','Y','Z'];
 
         $contextinfo = [
             'bcn_btt_search' => $bcn_btt_search,
             'bcn_placeholder_search' => $bcn_placeholder_search, 
+            'bcn_new_term' => $bcn_new_term, 
             'letters' => $letters, 
         ];
 
