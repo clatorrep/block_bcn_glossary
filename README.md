@@ -3,10 +3,12 @@ El bloque debe tener la posibilidad de administrar los términos que se quieren 
 ## Referencia
 La referencia se encuentra en el campus legacy de HDI https://campus.hdi.cl/local/pages/glosario/
 ### Vista del glosario
-![image](https://github.com/clatorrep/block_bcn_glossary/assets/114437655/7b426739-405e-44e7-b5bd-4672d5908f12)
+<img src="https://github.com/clatorrep/block_bcn_glossary/assets/114437655/7b426739-405e-44e7-b5bd-4672d5908f12" alt="image" width="50%" height="auto">
+
 ### Vista de mantenedor
-![image](https://github.com/clatorrep/block_bcn_glossary/assets/114437655/27456176-ff3e-46c2-8284-6dd8b006eb8f)
-El se pretende mezclar elementos de ambas vistas
+<img src="https://github.com/clatorrep/block_bcn_glossary/assets/114437655/27456176-ff3e-46c2-8284-6dd8b006eb8f" alt="image" width="50%" height="auto">
+
+Se pretende mezclar elementos de ambas vistas
 - El estilo visual
 - Funcionalidad de administración y búsqueda
 - Incluyendo 'capabilities' para su administración
