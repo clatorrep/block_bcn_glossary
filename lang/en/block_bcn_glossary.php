@@ -31,5 +31,8 @@ $string['bcn_placeholder_search'] = 'Search terms';
 $string['bcn_new_term'] = 'New term';
 
 // Form lang strings
+$string['create_title_form'] = 'Create new term';
 $string['bcn_glossary_form_title'] = 'Term';
 $string['bcn_glossary_form_title_error'] = 'You must enter a term';
+$string['bcn_glossary_form_description'] = 'Description';
+$string['bcn_glossary_form_description_error'] = 'You must enter a description';
