@@ -29,3 +29,7 @@ $string['pluginname:myaddinstance'] = 'Agregar un nuevo bloque BCN Glossary en M
 $string['bcn_btt_search'] = 'Buscar';
 $string['bcn_placeholder_search'] = 'Buscar términos';
 $string['bcn_new_term'] = 'Nuevo término';
+
+// Form lang strings
+$string['bcn_glossary_form_title'] = 'Término';
+$string['bcn_glossary_form_title_error'] = 'Debe ingresar un término';
